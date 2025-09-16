@@ -1,0 +1,16 @@
+ls
+cd Desktop/
+mkdir firstRepo
+cd firstRepo/
+touch pippo.txt
+git init
+git add .
+git status
+git commit -m "first commit"
+git status
+touch topolino.txt
+git status
+git add .
+git commit -m "aggiunta di topolino"
+git log
+history
